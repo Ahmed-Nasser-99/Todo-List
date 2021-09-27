@@ -6,7 +6,8 @@ class Task extends Component{
         tasks: [
             "Kill My Self",
             "Wash The Dishes",
-            "Having Stroke"
+            "Having Stroke",
+            "don't forget to clean the blood"
         ],
     }
 
