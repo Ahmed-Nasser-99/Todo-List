@@ -1,0 +1,53 @@
+*{
+    font-weight: bold;
+}
+
+.task{
+    font-size: 30px;
+    margin-right: 25px;
+    text-align: left;
+    display: inline;
+    
+}
+
+.tasklist{
+    position: relative;
+    margin-top: 20px;
+}
+
+.delete ,.add{
+    background-color: transparent;
+    border: solid white 2px ;
+    color: white;
+    padding: 5px 10px;
+    font-size: 30px;
+    
+
+}
+.delete{
+    position: absolute;
+    right: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.delete:hover{
+    background-color: white;
+    color: #282c34;
+    border: solid #282c34 2px;
+}
+.add:hover{
+    background-color: white;
+    color: #282c34;
+    border: solid #282c34 2px;
+}
+
+.textArea{
+    width: 60%;
+    height: 30px;
+    font-size: 35px;
+    padding: 10px;
+    margin-right: 20px;
+}
